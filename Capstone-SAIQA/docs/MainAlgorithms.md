@@ -20,7 +20,7 @@ return ans
 
 A SoftMax Regression, or a Multinomial Logistical Regression algorithm, is used for classifying sentences into four categories.  This algorithm is used over other classification algorithms since it is both able to have multiple categories and can learn from previously unknown categories.  Modified off a MNIST classification tutorial (https://gist.github.com/awjuliani/5ce098b4b76244b7a9e3#file-softmax-ipynb).
 
-..* Categories
+## Categories
 1. Time: When something happened to the subject
 2. Location: Where the subject did something or where something happened to the subject
 3. Property: What or who the subject is.  This is the most common category
@@ -29,20 +29,24 @@ A SoftMax Regression, or a Multinomial Logistical Regression algorithm, is used 
 ## Algorithm
 ### Base algorithm
 
+$${x=z \cdot x}$$
+$${x=x-max(x)}$$
+$${{{e^x}^T} \over \sum_{k=0}^{n}{e^2 k}}^T$$
 
 ### Cost Function
- 
-W = W - LR * GR
+
+$${GD={- {1 \over m}*(x^T\odot(y_{mat}-prob)^T)+lam*W}}$$
+$${W=W-LR*GR}$$
 
 # Genetic Algorithm:
 
 The reason why a genetic algorithm is used is to improve the accuracy of the classifier despite the small dataset.  By using the SoftMax regression's cost function as the fitness function, the genetic algorithm is able to gain a higher accuracy than the SoftMax regression was able to obtain itself.  After the gradient is found, the weight, or what allows for the algorithm to correctly classify a sentence, is adjusted six different ways and then all the weights are checked for accuracy.
 
 ## Adjusted Weight (W)
-1. W1 = W - learning_rate * gradient
+1. $${W1=W-learning_rate*gradient}$$
 2. Randomly switch around numbers from W1
 3. Randomly switch around numbers from W1
-4. W2 = W - learning_rate * gradient
+4. $${W2=W-learning_rate*gradient}$$
 5. Randomly switch around numbers from W2
 6. Randomly switch around numbers from W2
 
@@ -56,5 +60,5 @@ Based off the research paper referenced (Kumar et al., 2015) as well as a tutori
 
 
 # Reference
-1. Kumar, A., Irsoy, O., Ondruska, P., Iyyer, M., Bradbury, J., Gulrajani, I., … Socher, R. (2015). Ask Me Anything: Dynamic Memory Networks for Natural Language Processing. ArXiv:1506.07285 [Cs]. Retrieved from http://arxiv.org/abs/1506.07285
-2. [Dynamic Memory Network Tutorial](https://github.com/Steven-Hewitt/QA-with-Tensorflow/blob/master/QA%20with%20Tensorflow.ipynb)
+- Kumar, A., Irsoy, O., Ondruska, P., Iyyer, M., Bradbury, J., Gulrajani, I., … Socher, R. (2015). Ask Me Anything: Dynamic Memory Networks for Natural Language Processing. ArXiv:1506.07285 [Cs]. Retrieved from http://arxiv.org/abs/1506.07285
+- [Dynamic Memory Network Tutorial](https://github.com/Steven-Hewitt/QA-with-Tensorflow/blob/master/QA%20with%20Tensorflow.ipynb)
