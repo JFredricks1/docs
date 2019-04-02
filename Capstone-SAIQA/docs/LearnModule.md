@@ -1,5 +1,5 @@
 ![SAI-QA Logo](/Capstone-SAIQA/img/logo.png))
-# [Main](/Capstone-SAIQA/README.md)
+### [Main](/Capstone-SAIQA/README.md)
 # Learning Module
 ## Overview
 Handles taking sentences, cleaning them of extra characters, finds each of the sentence's subjects, and categorizes them before storing the outcome in a database.  Uses Regex to clean up sentences along with separating input into separate sentences.  Can only be access by admins.
@@ -9,10 +9,10 @@ A [Softmax Regression](/MainAlgorithms.md) is used to separate algorithms betwee
 Finding a subject is handled by SpaCy, a Natural Language Processing library for Python.  The subject is found by scanning the noun chunks in a sentence and find which one contains a word bearing the 'nsubj' tag.
 
 ## Sequence Diagram
-![Sequence Diagram](/Capstone-SAIQA/img/Learn_Module/)
+![Sequence Diagram](/Capstone-SAIQA/img/Learn_Module.png)
 
 ## Business Rules
-![Business Rules](/Capstone-SAIQA/img/Learn_Rules)
+![Business Rules](/Capstone-SAIQA/img/Learn_Rules.png)
 
 ## Related Classes
 1. QuestionController

@@ -1,5 +1,5 @@
 ![SAI-QA Logo](/Capstone-SAIQA/img/logo.png))
-# [Main](/Capstone-SAIQA/README.md)
+### [Main](/Capstone-SAIQA/README.md)
 
 # Octal Decimal
 
@@ -28,9 +28,7 @@ A SoftMax Regression, or a Multinomial Logistical Regression algorithm, is used 
 
 ## Algorithm
 ### Base algorithm
-  
-  
-  
+
 
 ### Cost Function
  
@@ -38,9 +36,9 @@ W = W - LR * GR
 
 # Genetic Algorithm:
 
-	The reason why a genetic algorithm is used is to improve the accuracy of the classifier despite the small dataset.  By using the SoftMax regression's cost function as the fitness function, the genetic algorithm is able to gain a higher accuracy than the SoftMax regression was able to obtain itself.  After the gradient is found, the weight, or what allows for the algorithm to correctly classify a sentence, is adjusted six different ways and then all the weights are checked for accuracy.
+The reason why a genetic algorithm is used is to improve the accuracy of the classifier despite the small dataset.  By using the SoftMax regression's cost function as the fitness function, the genetic algorithm is able to gain a higher accuracy than the SoftMax regression was able to obtain itself.  After the gradient is found, the weight, or what allows for the algorithm to correctly classify a sentence, is adjusted six different ways and then all the weights are checked for accuracy.
 
-..* Adjusted Weight (W)
+## Adjusted Weight (W)
 1. W1 = W - learning_rate * gradient
 2. Randomly switch around numbers from W1
 3. Randomly switch around numbers from W1
@@ -57,6 +55,6 @@ This architecture was chosen since it increases the benefits of a Recurrent Neur
 Based off the research paper referenced (Kumar et al., 2015) as well as a tutorial QA with TensorFlow and modified to run a single time without retraining.  Tensorflow handles a majority of the code, resulting in a response from the algorithm to take roughly 8 seconds.
 
 
-..* Reference
+# Reference
 1. Kumar, A., Irsoy, O., Ondruska, P., Iyyer, M., Bradbury, J., Gulrajani, I., … Socher, R. (2015). Ask Me Anything: Dynamic Memory Networks for Natural Language Processing. ArXiv:1506.07285 [Cs]. Retrieved from http://arxiv.org/abs/1506.07285
-2. ![Dynamic Memory Network Tutorial](https://github.com/Steven-Hewitt/QA-with-Tensorflow/blob/master/QA%20with%20Tensorflow.ipynb)
+2. [Dynamic Memory Network Tutorial](https://github.com/Steven-Hewitt/QA-with-Tensorflow/blob/master/QA%20with%20Tensorflow.ipynb)

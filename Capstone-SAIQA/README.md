@@ -23,7 +23,7 @@ The primary purpose of this project was to combine what I have learned through m
 ![Deployment Diagram](img/Deployment_Diagram.png)
 
 ### Database
-![ER Diagram](img/ER_Diagram.png/))
+![ER Diagram](img/ER_Diagram.png/)
 
 ### Sitemap
 ![Sitemap Diagram](img/Sitemap.png)
