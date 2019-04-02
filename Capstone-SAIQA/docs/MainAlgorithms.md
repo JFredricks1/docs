@@ -1,5 +1,20 @@
-![SAI-QA Logo](/Capstone-SAIQA/img/logo.png)
+![SAI-QA Logo](/Capstone-SAIQA/img/logo.png))
+# [Main](/Capstone-SAIQA/README.md)
+
+# Octal Decimal
+
 All text is converted into octal decimal to remove the need of having a large word vector model.  Another reason for using octal decimal instead of another Unicode format is due to most letters being three digits, allowing for the conversion between text and numbers.  The reason why text needs to be converted is because the algorithms cannot interact with text directly.
+
+```python
+ans = []
+for line in x:
+    number = ord(line)
+    convNum = oct(number)
+    convNum = int(convNum[2:])
+        
+    ans.append(convNum)
+return ans
+```
 
 # SoftMax Regression:
 
