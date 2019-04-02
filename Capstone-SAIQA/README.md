@@ -4,7 +4,7 @@
 Sima: Artificial Intelligence for Question Answering (further referred to as SAI-QA) is an artificial intelligence that learns information from training documents and uses the data to answer questions provided to it.  This project’s name is derived from the mathematic symbol Sigma since it is only as good as what is available to it, being able to better answer questions the more training documents feed into it.  Its purpose is to aid researchers and student who want to find information without having to spend hours going through documents and websites for a specific piece of information.
 
 ## Video Overview
-<a href="https://www.useloom.com/share/1a54c14bdeae4cca9cc123498b5a778f" target="_blank">![Main Page](img/Main_Page.png)
+<a href="https://www.useloom.com/share/1a54c14bdeae4cca9cc123498b5a778f" target="_blank">![Main Page](/Capstone-SAIQA/img/Main_Page.png)
 </a>
 
 ## General Overview

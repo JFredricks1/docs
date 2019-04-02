@@ -1,4 +1,4 @@
-![SAI-QA Logo](/Capstone-SAIQA/img/logo.png))
+![SAI-QA Logo](/Capstone-SAIQA/img/logo.png)
 ### [Main](/Capstone-SAIQA/README.md)
 
 # Octal Decimal
@@ -29,25 +29,26 @@ A SoftMax Regression, or a Multinomial Logistical Regression algorithm, is used 
 ## Algorithm
 ### Base algorithm
 
-$${x=z \cdot x}$$
-$${x=x-max(x)}$$
-$${{{e^x}^T} \over \sum_{k=0}^{n}{e^2 k}}^T$$
+<img src="https://latex.codecogs.com/gif.latex?x=z\cdot x"/>
+
+<img src="https://latex.codecogs.com/gif.latex?x=x-max(x)"/>
+
+<img src="https://latex.codecogs.com/gif.latex?{{e^x}^T} \over \sum_{k=0}^{n}{e^2 k}}^T"/>
 
 ### Cost Function
 
-$${GD={- {1 \over m}*(x^T\odot(y_{mat}-prob)^T)+lam*W}}$$
-$${W=W-LR*GR}$$
+<img src="https://latex.codecogs.com/gif.latex?GD={- {1 \over m}*(x^T\odot(y_{mat}-prob)^T)+lam*W}"/>
 
+<img src="https://latex.codecogs.com/gif.latex?W=W-LR*GR"/>
 # Genetic Algorithm:
 
 The reason why a genetic algorithm is used is to improve the accuracy of the classifier despite the small dataset.  By using the SoftMax regression's cost function as the fitness function, the genetic algorithm is able to gain a higher accuracy than the SoftMax regression was able to obtain itself.  After the gradient is found, the weight, or what allows for the algorithm to correctly classify a sentence, is adjusted six different ways and then all the weights are checked for accuracy.
 
 ## Adjusted Weight (W)
-1. $${W1=W-learning_rate*gradient}$$
+1. <img src="https://latex.codecogs.com/gif.latex?W1=W-learningrate*gradient"/>
 2. Randomly switch around numbers from W1
 3. Randomly switch around numbers from W1
-4. $${W2=W-learning_rate*gradient}$$
-5. Randomly switch around numbers from W2
+4. <img src="https://latex.codecogs.com/gif.latex?W2=W-learningrate*gradient"/>5. Randomly switch around numbers from W2
 6. Randomly switch around numbers from W2
 
 After the two most accurate weights are found, they are stitched together in four different ways with one being chosen at random.  This process continues until the algorithm reaches a certain level of accuracy, which is 60.6% accuracy.  From testing, this is the highest accuracy that was reached.
