@@ -1,7 +1,7 @@
 ![SAI-QA Logo](/Capstone-SAIQA/img/logo.png)
 # Abstract
 
-Sima: Artificial Intelligence for Question Answering (further referred to as SAI-QA) is an artificial intelligence that learns information from training documents and uses the data to answer questions provided to it.  This project’s name is derived from the mathematic symbol Sigma since it is only as good as what is available to it, being able to better answer questions the more training documents feed into it.  Its purpose is to aid researchers and student who want to find information without having to spend hours going through documents and websites for a specific piece of information.
+Sima: Artificial Intelligence for Question Answering (further referred to as SAI-QA) is an artificial intelligence that learns information from training documents and uses the data to answer questions provided to it.  This project's name is derived from the mathematic symbol Sigma since it is only as good as what is available to it, being able to better answer questions the more training documents feed into it.  Its purpose is to aid researchers and student who want to find information without having to spend hours going through documents and websites for a specific piece of information.
 
 ## Video Overview
 <a href="https://www.useloom.com/share/1a54c14bdeae4cca9cc123498b5a778f" target="_blank">![Main Page](/Capstone-SAIQA/img/Main_Page.jpg)
@@ -9,10 +9,11 @@ Sima: Artificial Intelligence for Question Answering (further referred to as SAI
 
 ## General Overview
 
-The primary purpose of this project was to combine what I have learned through my major (creating databases, AJAX-enabled web pages, and web applications) and what I have taught myself (Regex, Artificial Intelligence, and Python).  The outcome is a decent web application that can answer questions with relative accuracy if the subject has at least one entry in the database.  Along the way, I also learn about and implemented several artificial intelligence algorithms which will be further talked about.  The main areas of Artificial Intelligence that are used are text analysis and natural language processing (NLP).
+The primary purpose of this project was to combine what I have learned through my major (creating databases, AJAX-enabled web pages, and web applications) and what I have taught myself (Regex, Artificial Intelligence, and Python).  The outcome is a decent web application that can answer questions with relative accuracy if the subject has at least one entry in the database.  Along the way, I also [researched](https://github.com/mark-mo/docs/blob/master/Capstone-SAIQA/docs/Research.md) and implemented several artificial intelligence algorithms which will be further talked about.  The main areas of Artificial Intelligence that are used are [text analysis](https://github.com/mark-mo/docs/blob/master/Capstone-SAIQA/docs/Research.md#text-analysis) and [natural language processing (NLP)](https://github.com/mark-mo/docs/blob/master/Capstone-SAIQA/docs/Research.md#natural-language-processing).
 
-### Class Diagram
-![Class Diagram](img/Class_Diagrams.png)
+### Class Overview
+
+
 
 ### Logical Architecture
 ![Logical Architecture Diagram](img/Logical_Architecture.png)
