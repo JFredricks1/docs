@@ -11,9 +11,8 @@ Sima: Artificial Intelligence for Question Answering (further referred to as SAI
 
 The primary purpose of this project was to combine what I have learned through my major (creating databases, AJAX-enabled web pages, and web applications) and what I have taught myself (Regex, Artificial Intelligence, and Python).  The outcome is a decent web application that can answer questions with relative accuracy if the subject has at least one entry in the database.  Along the way, I also [researched](https://github.com/mark-mo/docs/blob/master/Capstone-SAIQA/docs/Research.md) and implemented several artificial intelligence algorithms which will be further talked about.  The main areas of Artificial Intelligence that are used are [text analysis](https://github.com/mark-mo/docs/blob/master/Capstone-SAIQA/docs/Research.md#text-analysis) and [natural language processing (NLP)](https://github.com/mark-mo/docs/blob/master/Capstone-SAIQA/docs/Research.md#natural-language-processing).
 
-### Class Overview
-
-
+###Class Diagram
+![Class Diagram](img/Class_Diagrams.png)
 
 ### Logical Architecture
 ![Logical Architecture Diagram](img/Logical_Architecture.png)
