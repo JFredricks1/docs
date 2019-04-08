@@ -18,7 +18,7 @@ return ans
 
 # SoftMax Regression:
 
-A SoftMax Regression, or a Multinomial Logistical Regression algorithm, is used for classifying sentences into four categories.  This algorithm is used over other classification algorithms since it is both able to have multiple categories and can learn from previously unknown categories.  Modified off a MNIST classification tutorial and trained off a custom dataset (https://gist.github.com/awjuliani/5ce098b4b76244b7a9e3#file-softmax-ipynb).  All percentages are based off of 1000 entries that this algorithm has gone over.
+A SoftMax Regression, or a Multinomial Logistical Regression algorithm, is used for classifying sentences into four categories.  This algorithm is used over other classification algorithms since it is both able to have multiple categories and can learn from previously unknown categories.  Modified off a MNIST classification tutorial and trained off a custom dataset (https://gist.github.com/awjuliani/5ce098b4b76244b7a9e3#file-softmax-ipynb).  All percentages are based off 1000 entries that this algorithm has gone over.
 
 ## Categories
 - Time: When something happened to the subject. Lowest likelihood of appear at 0.1%
@@ -53,7 +53,7 @@ This architecture was chosen since it increases the benefits of a Recurrent Neur
 
 ![DMN Model](/Capstone-SAIQA/img/DMN_Model.jpg/)
 
-Based off the research paper referenced (Kumar et al., 2015) as well as a tutorial QA with TensorFlow and modified to run a single time without retraining.  Tensorflow handles a majority of the code, resulting in a response from the algorithm to take roughly 8 seconds.  Trained using the bAbi dataset's first task, which trains only to answer off of a single fact.
+Based off the research paper referenced (Kumar et al., 2015) as well as a tutorial QA with TensorFlow and modified to run a single time without retraining.  Tensorflow handles a majority of the code, resulting in a response from the algorithm to take roughly 8 seconds.  Trained using the bAbi dataset's first task, which trains only to answer off a single fact.
 
 
 # Reference
