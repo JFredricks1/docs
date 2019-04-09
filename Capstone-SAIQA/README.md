@@ -45,7 +45,7 @@ A high-level overview of the flow of the website.
 
 ### Technical Design
 
-A brief overview of the general approach and the main libraries that were leveraged can be found [here](https://github.com/mark-mo/docs/blob/master/Capstone-SAIQA/docs/TechnicalDesign.md)
+A brief overview of the general approach and the main libraries that were leveraged can be found [here](https://github.com/mark-mo/docs/blob/master/Capstone-SAIQA/docs/TechicalDesign.md)
 
 ### Modules
 1. [User Module](https://github.com/mark-mo/docs/blob/master/Capstone-SAIQA/docs/UserModule.md)
