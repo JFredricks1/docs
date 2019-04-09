@@ -8,7 +8,7 @@ This project follows a Model-View-Controller (MVC) architecture.
 
 An overview of all classes for the application.  All Controllers, Services, and DAOs will implement the decorator class LoggingDecorator so that logging the flow of the application will be encapsulated into a single class, with any extra logging done throughout the classes.  An overview for each class is below the diagram
 
-![Class Diagram](img/Class_Diagrams.png)
+![Class Diagram](/Capstone-SAIQA/img/Class_Diagrams.png)
 
 ## Models
 
